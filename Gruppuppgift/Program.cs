@@ -45,6 +45,9 @@ class Program
     }
     static void VisaInventarie()
     {
-        // TODO: Implementera metod för att visa inventarie
+      foreach (var item in inventory)
+      {
+        Console.WriteLine(item);
+        }
     }
 }
