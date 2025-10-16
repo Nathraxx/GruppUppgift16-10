@@ -13,6 +13,7 @@ class Program
             Console.WriteLine("1. Lägg till produkt");
             Console.WriteLine("2. Visa inventarie");
             Console.WriteLine("3. Avsluta");
+            Console.WriteLine("Ange ditt val (1-3): ");
 
             string val = Console.ReadLine();
             switch (val)
