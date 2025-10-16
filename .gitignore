@@ -9,3 +9,34 @@
 /.vs/GruppUppgiftGit/v17
 /Gruppuppgift/.vs/Gruppuppgift/CopilotIndices/17.14.1290.42047
 *.v2
+# Build results
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.log
+ 
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+ 
+# Visual Studio settings
+.vs/
+.vscode/
+ 
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+ 
+# Others
+TestResult*/
+*.cache
+*.dbmdl
+*.bak
+*.tmp
