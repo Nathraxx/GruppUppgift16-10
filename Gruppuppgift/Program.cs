@@ -6,7 +6,7 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Välkommen till Fabrikshanteringssystemet!");
-
+        // test
         while (true)
         {
             Console.WriteLine("\nVälj en åtgärd:");
