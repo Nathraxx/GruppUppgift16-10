@@ -34,6 +34,8 @@ class Program
     static void LäggTillProdukt()
     {
         // TODO: Implementera metod för att lägga till produkt
+        Console.Write("Lägg till en produkt: ");
+        inventory.Add(Console.ReadLine());
     }
     static void VisaInventarie()
     {
